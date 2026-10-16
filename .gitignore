@@ -1,0 +1,55 @@
+# ─── Dependencies ────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Build output ─────────────────────────────────────────────────────────────
+dist/
+dist-ssr/
+*.local
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─── Database files (SQLite) ──────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Environment variables — NEVER commit real secrets ────────────────────────
+.env
+.env.local
+.env.*.local
+.env.production
+
+# ─── Editor & OS ──────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Vite ─────────────────────────────────────────────────────────────────────
+.vite/
+
+# ─── TypeScript cache ─────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── GSD / planning artifacts (internal dev tooling, not relevant to consumers)─
+.planning/
+implementation_plan.md
+walkthrough.md
+
+# ─── Vite boilerplate scaffold files (not part of the app) ───────────────────
+src/main.ts
+src/counter.ts
+src/style.css

@@ -1,0 +1,48 @@
+{
+  "name": "nebula-node",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Financial intelligence operator console for detecting market-moving events, propagating impact through dependency graphs, and generating trade candidates with integrated risk management.",
+  "type": "module",
+  "author": "Vedant Ladde",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vednatladde/Nebula-Node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vednatladde/Nebula-Node/issues"
+  },
+  "homepage": "https://github.com/Vednatladde/Nebula-Node#readme",
+  "keywords": [
+    "financial-intelligence",
+    "dependency-graph",
+    "trading-console",
+    "d3",
+    "react",
+    "typescript",
+    "zustand",
+    "risk-management"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4"
+  },
+  "dependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/uuid": "^10.0.0",
+    "better-sqlite3": "^12.8.0",
+    "d3": "^7.9.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "uuid": "^13.0.0",
+    "zustand": "^5.0.12"
+  }
+}
